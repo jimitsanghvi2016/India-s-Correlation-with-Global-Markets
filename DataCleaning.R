@@ -1,5 +1,4 @@
 # Data Preprocessing: Getting the dataset ready for analysis.
-setwd('C:/Users/Jimit/Desktop/Github/India-s-Correlation-with-Global-Markets')
 
 df <- read.csv("data.csv", header = T)
 
