@@ -1,4 +1,4 @@
-# Data Preprocessing: Getting the dataset ready for analysis.
+# Data Cleaning: Getting the dataset ready for analysis.
 
 df <- read.csv("data.csv", header = T)
 
