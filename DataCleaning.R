@@ -65,7 +65,7 @@ dataFinal <- dataFinal %>%
   do(na.locf(.))
 
 dataFinal$Date <- as.Date(dataFinal$Date)
-for(i in 2:16){
+for(i in 2:17){
   dataFinal[,i] <- as.double(dataFinal[,i])
 }
 
